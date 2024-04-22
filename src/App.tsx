@@ -11,7 +11,7 @@ import { User } from "./types/User";
 
 const router = createBrowserRouter([
   {
-    path: "/Nutzerverwaltung",
+    path: "/",
     element: <Root />,
     children: [
       { path: "overview", element: <Overview /> },
